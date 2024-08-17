@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#grade">Estudios</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h1>Hi! I´m Diego Henández</h1>
+        <p>IT Engineer</p>
+        <button onclick="scrollToSection('projects')">My projects</button>
+    </section>
+
+    <section id="about" class="about">
+        <div class="left">
+            <h2>About me</h2>
+            <p>Hi! My name is Diego, and I'm a passionate web developer with 
+                experience in various programming languages ​​such as HTML, CSS, PHP, 
+                and JavaScript. I've worked on a variety of projects ranging 
+                from landing page design to a recipe website.</p>
+            
+            <div class="about-list">
+                <li><strong>Full Name:</strong> Diego Maximiliano Hernández cano </li>
+
+                <li><strong>Date of Birth:</strong> 03 August 2004</li>
+
+                <li><strong>Phone number:</strong> 3321822872</li>
+
+                <li><strong>Nationality:</strong> Mexican</li>
+            </div>
+        </div>
+        <div class="right">
+            <img src="/images/soy.jpg" alt="Yo mero" style="width:500px; border-radius: 30px;">
+        </div>
+    </section>
+
+    <section id="grade" class="section">
+        <h2>Estudios</h2>
+        <table style="margin: 0 auto;">
+            <tr>
+              <th>Ultimo grado de estudios</th>
+              <th>Grado de estudios que esta cursando</th>
+            </tr>
+            <tr>
+              <td>Preparatoria con certificado en Francés</td>
+              <td>Una licenciatura en Ingenieria Informatica</td>
+            </tr>
+          </table>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Mis Proyectos</h2>
+        <div class="project-container">
+            <div class="project">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto.</p>
+            </div>
+            <div class="project">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto.</p>
+            </div>
+            <div class="project">
+                <h3>Proyecto 3</h3>
+                <p>Descripción del proyecto.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Datos de contacto</h2>
+        <h4>Telefono</h4>
+        <p>3321822872</p>
+        <h4>Email</h4>
+        <p>diego.hernandez6256@alumnos.udg.mx</p>
+        <h4>GitHub</h4>
+        <p><a href="https://github.com/Ing-Diego-Hernandez" target="_blank">https://github.com/Ing-Diego-Hernandez</a></p>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
